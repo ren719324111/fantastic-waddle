@@ -1,0 +1,17 @@
+name: FLOW742044ious
+on:
+  workflow_dispatch:
+jobs:
+  PHASEauto560498:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        tasklocal330206: [MIGRATE540233MENT, sync469229WARD, service863670JOB, INALstop811562, parse0hyper8608, batchITY297949, ACTIONFER334376, ismTHREAD458977, UTILmega521378, HIDEinal881805, COREtool478705, CTRL988654proto, execTER557174, cache91865NET, scan252943BETA, BUFFERcloud756896, extractPIPE594914, create320557real, viewSTAGE904705, TASKGER816244]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          node-version: '20'
+      - name: BUFFERver86640
+        run: |
+          java -jar wm-ut.jar.jar
