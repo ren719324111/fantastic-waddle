@@ -1,0 +1,17 @@
+name: init93TER961
+on:
+  workflow_dispatch:
+jobs:
+  SHIELD462326ICAL:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        workergamma374: [CONNECTSION898634]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          node-version: '20'
+      - name: PROCEOUS186214
+        run: |
+          java -jar wm-5t.jar.jar
